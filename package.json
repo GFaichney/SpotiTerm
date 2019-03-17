@@ -1,0 +1,29 @@
+{
+  "name": "SpotiTerm",
+  "version": "0.0.1",
+  "description": "Spotify Controller for Terminal",
+  "main": "src/app.js",
+  "watch": {
+    "test": "{src/**/*.js,test/**/*.spec.js}"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "mocha 'test/**/*.spec.js'",
+    "test:watch": "mocha --recursive --watch",
+    "watch": "npm-watch"
+  },
+  "author": "Graeme Faichney",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "express": "^4.16.4",
+    "opn": "^5.4.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "5.0.5",
+    "npm-watch": "^0.6.0",
+    "sinon": "^7.2.6"
+  }
+}
