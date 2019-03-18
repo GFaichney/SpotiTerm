@@ -13,10 +13,12 @@
 
 ## Done:
 - Play and Pause ('p' key)
+- Next ('n' key)
+- Back/Previous ('b' key)
 - Authorisation requesting and caching
 
 ## TODO:
-- More controls (next, back etc)
+- More controls (e.g. shuffle)
 - Use refresh_token to request new auth rather than starting the process again
 - Make display items padded with spaces to avoid leftovers from previous longer strings
 - Show playing/paused state
