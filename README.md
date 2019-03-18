@@ -1,4 +1,4 @@
-# TERM_SPOTIFY
+# SpotiTerm
 ### Terminal-based controller for Spotify
 
 ## Setup:
@@ -29,4 +29,6 @@
 - Stop redirect URL server when no longer needed
 - Kill redirect URL server after timeout
 - Choose pkayback device
+- Separate keys in to config for easier customisation
+- Add proper http req/res debug log
 - ...?

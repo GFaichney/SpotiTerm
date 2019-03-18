@@ -30,6 +30,10 @@ let keyListener = async event => {
     } else {
       res = await doApiCall(api.play());
     }
+  } else if(event.key === 'n') {
+    res = await doApiCall(api.next());
+  } else if(event.key === 'b') {
+    res = await doApiCall(api.previous());
   }
 };
 
